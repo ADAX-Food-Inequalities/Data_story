@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="../img/icon/grapes.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="../bootstrap-4.1.3-dist/css/style.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="../bootstrap-4.1.3-dist/js/bootstrap.js"></script>
+
+    <title>Life of food</title>
+  </head>
+  <body class="background">
+      <nav class="site-header sticky-top py-1">
+          <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#">
+              <img src="../img/icon/grapes.ico" width=24 height=24/>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="introduction.html">Introduction</a>
+            <a class="py-2 d-none d-md-inline-block" href="overview.html">Overview</a>
+            <a class="py-2 d-none d-md-inline-block" href="inequalities.html">Observed inequalities</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Potential causes of inequalities
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="stores.html">Stores</a>
+                <a class="dropdown-item" href="organic.html">Organic food</a>
+                <a class="dropdown-item" href="type.html">Type of food</a>
+              </div>
+            </li>
+            <a class="py-2 d-none d-md-inline-block" href="considerations.html">Conclusion</a>
+            <a class="py-2 d-none d-md-inline-block" href="about.html">About</a>
+          </div>
+      </nav>
+      
+    
+    <div class="container">
+      <div class="col-md-12">
+        <br>
+        <br>
+      </div>
+      <div class="jumbotron bg-light">
+            <div class="col-md-12">
+              <h1>Overview of French population</h1>
+              <br>
+              <br>
+              Before going into the detail of the inequalities across French population, we want to have an initial assessment of the situation at the national scale.
+              <br>
+              <br>
+              To do so we are going to focus on four indicators:
+              <ul>
+                <li> <b>Body Mass Index (BMI)</b>: it puts in relation weight and height in order to determine whether the person suffers from under- or overweight.</li>
+				        <li> <b>Energy intakes</b>: the main sources of energy are fats and carbohydrates. According to the European Food Safety Authority (EFSA) recommendations, there is an optimal balance between those two sources. It corresponds approximately to 20-35% of fats and 45-60% of carbohydrates (for an adult).</li>
+                <li> <b>Salt intakes</b>: even if salt is necessary for human body, its over-consumption is a major cause of cardiovascular diseases.</li>
+				        <li> <b>Fiber intakes</b>: fibers are the portion of plant-derived food that cannot be completely digested. They are necessary to ensure good digestion.</li>
+			        </ul>
+              In all our study, we focus on adults only because child nutrition constitutes a whole subject in itself and it is quite difficult to compare children nutritional intakes or weight with adults ones.
+              <br>
+              <br>
+              <h3>Body Mass Index</h3>
+              <br>
+              BMI (Body Mass Index) is an indicator frequently used to put in relation the weight and the height of an individual. BMI gives a value that makes it possible to classify people in categories:
+              <ul>
+                <li> Very Severely underweight: less than 16</li>
+                <li> Underweight: 16-18.5</li>
+                <li> Normal (healthy weight): 18.5-25</li>
+                <li> Overweight: 25-30</li>
+                <li> Obese Class I (Moderately obese): 30-35</li>
+                <li> Obese Class II (Severely obese): 35-40</li>
+                <li> Obese Class III-VI (Very severely obese-Hyper Obese): more than 40</li>
+              </ul>
+              <i>(source Wikipedia)</i>
+              <br>
+              <br>
+              The categories given above correspond to adults, because the expected BMI of children varies with age. This indicator may not be perfect: for instance professional athletes often have a high BMI, synonymous of overweight, whereas this weight is essentially composed of muscle and they are in very good physical health. However it is an easy tool that can enables us to identify some trends in the population.
+              <br>
+              On the graph below we have chosen to put in blue underweight people, in green the ones that have a healthy weight, and in a range from orange to red people that are overweight to obese.
+              <div class="row text-center">
+				        <div class="col-md-1"></div>
+				        <div class="col-md-10 thumbnail">
+					        <iframe class="boxplots" src="../visualisations/overview_bmi.html" frameBorder="0" style="margin:auto;"></iframe> 
+					        <div class="caption">
+						        <p>Distribution of the BMI inside French population. Don't hesitate to hover the histogram for more precise details.</p>
+					        </div>
+				        </div>
+			        	<div class="col-md-1"></div>
+              </div>
+              We can see that more than a third of the French population is overweight. We will see with more details later how it affects differently people from different social backgrounds.
+			  <br>
+			  <h3>Energy intake</h3>
+			  The two graphs below show the intakes of carbohydrates and fats for different social groups, with the reference values corresponding to the optimal balance evoked earlier. It clearly appears that without distinction of social class, the typical diet of French population is too rich in fats and too poor in carbohydrates. It may look surprising given the fact that nowadays the media often remind us about our general addiction to sugar. This fact is indeed real and the cause of a lot of sanitary issues, and this paradox is explained by the fact that people tend to consume too much fast sugars and not enough slow ones. A more precise categorization of the carbohydrates would enable us to quantify this imbalance in the carbohydrates intake.
+			  <div class="row text-center">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 thumbnail">
+                <img src="../visualisations/gluc.png" style="width:100%;"></img>
+				<div class="caption">
+					<p>Carbohydrates intakes.</p>
+				</div>				
+              </div>
+			  <div class="col-md-1"></div>
+              </div>
+			  <div class="row text-center">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 thumbnail">
+                <img src="../visualisations/fat.png" style="width:100%;"></img> 
+				<div class="caption">
+					<p>Fats intakes.</p>
+				</div>	
+              </div>
+				<div class="col-md-1"></div>
+              </div>
+			  <h3>Salt</h3>
+			  Over-consumption of salt is also an old habit difficult for French people to change. The graph below showing the sodium intake indicates that this is also a problem affecting every social group.
+			  <div class="row text-center">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 thumbnail">
+                <img src="../visualisations/sodium2.png" style="width:100%;"></img> 
+				<div class="caption">
+					<p>Sodium intakes.</p>
+				</div>	
+              </div>
+				<div class="col-md-1"></div>
+              </div>
+              <h3>Fibers</h3>
+			  Fibers are well-known from the public because of the constant reminders that "they are important for digestion", but their exact role is less known. In fact they are a crucial regulator of the other nutrients intakes, retaining excessive cholesterol and modifying the absorption rate of some carbohydrates. A lack of fibers could be a factor for digestive troubles, but also cardiovascular diseases and colorectal cancers. Nevertheless the plot below shows that this lack of fibers is shared by the whole French population.
+			  <div class="row text-center">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 thumbnail">
+                <img src="../visualisations/fibers.png" style="width:100%;"></img> 
+                <div class="caption">
+					      <p>Fiber intakes.</p>
+				      </div>
+              </div>
+              <div class="col-md-1"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+            </div>
+          </div>
+
+    
+  </body>
+</html>
